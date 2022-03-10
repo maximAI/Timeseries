@@ -13,3 +13,4 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 import gdown
 ```
+[Ноутбук колаба](https://colab.research.google.com/drive/1-YSwg3N_snmKxM7pGICV0ph6ffhhrSGq#scrollTo=i0mHUpXZk7Qj&uniqifier=2)
