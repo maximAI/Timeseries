@@ -1,5 +1,10 @@
 # Фич инжиниринг
 Задача состоит в том, чтобы посмотреть, получится или нет, добавив дополнительные фичи/признаки, избавиться от автокрреляции.
+
+<a name="1"></a> 
+<a name="2"></a> 
+<a name="3"></a> 
+
 Импортируем нужные библиотеки.
 ```
 import pandas as pd
@@ -110,6 +115,7 @@ def showCorr(channels, corrSteps, predVal, yValUnscaled):
     plt.legend()
     plt.show()
 ```
+[Загрузим](#1)
 Загрузим наши данные для анализа.
 ```
 url = 'https://drive.google.com/uc?id=1_dfvJSMa9cQMgnE7jMthQ7CCzR7_Oj9B'
@@ -246,4 +252,4 @@ predVal, yValUnscaled = getPred(currModel, xVal[0], yVal[0], yScaler)
 showPredict(0, 500, 0, predVal, yValUnscaled)
 showCorr([0], 11, predVal, yValUnscaled)
 ```
-[Ноутбук](https://colab.research.google.com/drive/1-YSwg3N_snmKxM7pGICV0ph6ffhhrSGq#scrollTo=i0mHUpXZk7Qj&uniqifier=2){:target="_blank"}
+[Ноутбук](https://colab.research.google.com/drive/1-YSwg3N_snmKxM7pGICV0ph6ffhhrSGq#scrollTo=i0mHUpXZk7Qj&uniqifier=2)
