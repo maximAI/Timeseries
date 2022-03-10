@@ -1,9 +1,9 @@
 # Фич инжиниринг
 Задача состоит в том, чтобы посмотреть, получится или нет, добавив дополнительные фичи/признаки, избавиться от автокрреляции.
-
-<a name="1"></a> 
-<a name="2"></a> 
-<a name="3"></a> 
+<a name="4"></a>[Оглавление:](#4)
+[Загрузка данных](#1)
+[Формируем параметры загрузки](#2)
+[Создаем сеть](#3)
 
 Импортируем нужные библиотеки.
 ```
@@ -115,8 +115,7 @@ def showCorr(channels, corrSteps, predVal, yValUnscaled):
     plt.legend()
     plt.show()
 ```
-[Загрузим](#1)
-Загрузим наши данные для анализа.
+<a name="1"></a>Загрузим наши данные для анализа.
 ```
 url = 'https://drive.google.com/uc?id=1_dfvJSMa9cQMgnE7jMthQ7CCzR7_Oj9B'
 gdown.download(url, None, quiet=False)
@@ -161,6 +160,7 @@ for j in range(10, 20):
 data = data.dropna()
 data = np.array(data)
 ```
+<a name="2"></a>
 ## Формируем параметры загрузки данных
 ```
 xLen = 30                           # Анализируем по 30 прошедшим точкам 
@@ -207,7 +207,7 @@ for i in DataGen:
 xVal = np.array(xVal)
 yVal = np.array(yVal)
 ```
-Создаем сеть.
+<a name="3"></a>Создаем сеть.
 ```
 dataInput = Input(shape = (trainDataGen[0][0].shape[1], trainDataGen[0][0].shape[2]))
 
