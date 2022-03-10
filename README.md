@@ -117,7 +117,7 @@ def showCorr(channels, corrSteps, predVal, yValUnscaled):
     plt.legend()
     plt.show()
 ```
-[Оглавление](#4)
+[:arrow_up:Оглавление][Оглавление](#4)
 <a name="1"></a>
 ## Загрузим данные для анализа.
 ```
@@ -164,7 +164,7 @@ for j in range(10, 20):
 data = data.dropna()
 data = np.array(data)
 ```
-[Оглавление](#4)
+[:arrow_up:Оглавление][Оглавление](#4)
 <a name="2"></a>
 ## Формируем параметры загрузки данных
 ```
@@ -212,7 +212,7 @@ for i in DataGen:
 xVal = np.array(xVal)
 yVal = np.array(yVal)
 ```
-[Оглавление](#4)
+[:arrow_up:Оглавление][Оглавление](#4)
 <a name="3"></a>
 ## Создаем сеть.
 ```
