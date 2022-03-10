@@ -3,8 +3,8 @@
 
 <a name="4"></a>[Оглавление:](#4)
 1. [Загрузка данных](#1)
-2. [Формируем параметры загрузки](#2)
-3. [Создаем сеть](#3)
+2. [Формирование параметров загрузки](#2)
+3. [Создание сети](#3)
 
 Импортируем нужные библиотеки.
 ```
@@ -116,6 +116,7 @@ def showCorr(channels, corrSteps, predVal, yValUnscaled):
     plt.legend()
     plt.show()
 ```
+[Оглавление](#4)
 <a name="1"></a>Загрузим наши данные для анализа.
 ```
 url = 'https://drive.google.com/uc?id=1_dfvJSMa9cQMgnE7jMthQ7CCzR7_Oj9B'
@@ -161,6 +162,7 @@ for j in range(10, 20):
 data = data.dropna()
 data = np.array(data)
 ```
+[Оглавление](#4)
 <a name="2"></a>
 ## Формируем параметры загрузки данных
 ```
@@ -208,6 +210,7 @@ for i in DataGen:
 xVal = np.array(xVal)
 yVal = np.array(yVal)
 ```
+[Оглавление](#4)
 <a name="3"></a>Создаем сеть.
 ```
 dataInput = Input(shape = (trainDataGen[0][0].shape[1], trainDataGen[0][0].shape[2]))
