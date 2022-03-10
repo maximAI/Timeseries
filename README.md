@@ -250,8 +250,7 @@ plt.ylabel('Средняя ошибка')
 plt.legend()
 plt.show()
 ```
-
-## График автокорреляции
+График автокорреляции.
 ```
 currModel = modelX
 predVal, yValUnscaled = getPred(currModel, xVal[0], yVal[0], yScaler)
