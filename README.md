@@ -246,5 +246,4 @@ predVal, yValUnscaled = getPred(currModel, xVal[0], yVal[0], yScaler)
 showPredict(0, 500, 0, predVal, yValUnscaled)
 showCorr([0], 11, predVal, yValUnscaled)
 ```
-<a href="https://colab.research.google.com/drive/1-YSwg3N_snmKxM7pGICV0ph6ffhhrSGq#scrollTo=i0mHUpXZk7Qj&uniqifier=2" target="_blank">Ноутбук</a>
-[Ноутбук](https://colab.research.google.com/drive/1-YSwg3N_snmKxM7pGICV0ph6ffhhrSGq#scrollTo=i0mHUpXZk7Qj&uniqifier=2, target="_blank")
+[Ноутбук](https://colab.research.google.com/drive/1-YSwg3N_snmKxM7pGICV0ph6ffhhrSGq#scrollTo=i0mHUpXZk7Qj&uniqifier=2){:target="_blank"}
