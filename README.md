@@ -117,7 +117,7 @@ def showCorr(channels, corrSteps, predVal, yValUnscaled):
     plt.legend()
     plt.show()
 ```
-[:arrow_up:][Оглавление](#4)
+[:arrow_up:Оглавление](#4)
 <a name="1"></a>
 ## Загрузим данные для анализа.
 ```
