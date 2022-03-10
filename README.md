@@ -118,7 +118,7 @@ def showCorr(channels, corrSteps, predVal, yValUnscaled):
 ```
 [Оглавление](#4)
 <a name="1"></a>
-## Загрузим наши данные для анализа.
+## Загрузим данные для анализа.
 ```
 url = 'https://drive.google.com/uc?id=1_dfvJSMa9cQMgnE7jMthQ7CCzR7_Oj9B'
 gdown.download(url, None, quiet=False)
