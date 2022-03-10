@@ -8,17 +8,17 @@
 
 Импортируем нужные библиотеки.
 ```
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+import pandas as pd                                             # Загружаем библиотеку Pandas
+import numpy as np                                              # Подключим numpy - библиотеку для работы с массивами данных
+import matplotlib.pyplot as plt                                 # Подключим библиотеку для визуализации данных
 %matplotlib inline
-from tensorflow.keras.optimizers import Adam, Adamax
-from tensorflow.keras.models import Sequential, Model
-from tensorflow.keras.layers import concatenate, Input, Dense, Dropout, MaxPooling1D
+from tensorflow.keras.optimizers import Adam, Adamax            # Подключим оптимизаторы
+from tensorflow.keras.models import Sequential, Model           # Загружаем абстрактный класс базовой модели сети от кераса
+from tensorflow.keras.layers import concatenate, Input, Dense, Dropout, MaxPooling1D    # Подключим необходимые слои
 from tensorflow.keras.layers import BatchNormalization, Flatten, Conv1D, LSTM
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
-import gdown
+from sklearn.preprocessing import StandardScaler, MinMaxScaler  # Номализация данных
+from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator # Генератор данных
+import gdown                                                    # Загрузка датасетов из облака google
 ```
 Определим фукции для работы.
 ```
