@@ -164,7 +164,7 @@ for j in range(10, 20):
 data = data.dropna()
 data = np.array(data)
 ```
-[:arrow_up:][Оглавление](#4)
+[:arrow_up:Оглавление](#4)
 <a name="2"></a>
 ## Формируем параметры загрузки данных
 ```
@@ -212,7 +212,7 @@ for i in DataGen:
 xVal = np.array(xVal)
 yVal = np.array(yVal)
 ```
-[:arrow_up:][Оглавление](#4)
+[:arrow_up:Оглавление](#4)
 <a name="3"></a>
 ## Создаем сеть.
 ```
