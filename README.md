@@ -212,7 +212,8 @@ xVal = np.array(xVal)
 yVal = np.array(yVal)
 ```
 [Оглавление](#4)
-<a name="3"></a>Создаем сеть.
+<a name="3"></a>
+## Создаем сеть.
 ```
 dataInput = Input(shape = (trainDataGen[0][0].shape[1], trainDataGen[0][0].shape[2]))
 
