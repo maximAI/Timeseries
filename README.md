@@ -31,7 +31,8 @@ def getPred(currModel, xVal, yVal, yScaler):
     yValUnscaled = yScaler.inverse_transform(yVal)
     
     return predVal, yValUnscaled
-
+```
+```
 def showPredict(start, step, channel, predVal, yValUnscaled):
     '''
     Функция визуализирует графики, что предсказала сеть и какие были правильные ответы
@@ -48,7 +49,8 @@ def showPredict(start, step, channel, predVal, yValUnscaled):
     plt.ylabel('Значение Close')
     plt.legend()
     plt.show()
-  
+```
+```
 def correlate(a, b):
     '''
     Функция расёта корреляции дух одномерных векторов
@@ -65,7 +67,8 @@ def correlate(a, b):
     if ((sa > 0) & (sb > 0)):
         val = (mab - ma * mb)/(sa * sb)
     return val
-
+```
+```
 def showCorr(channels, corrSteps, predVal, yValUnscaled):
     '''
     Функция рисуем корреляцию прогнозированного сигнала с правильным,
